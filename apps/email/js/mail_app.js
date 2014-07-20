@@ -7,6 +7,7 @@
 
 // Set up loading of scripts, but only if not in tests, which set up
 // their own config.
+//Test modification for the code
 if (typeof TestUrlResolver === 'undefined') {
   requirejs.config({
     baseUrl: 'js',
